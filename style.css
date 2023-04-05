@@ -12,7 +12,7 @@
 header{
     /* border: 1px solid red; */
     /* height: 10rem; */
-    background: url('assets/bg-hero-mobile.svg') #b1e2f8 no-repeat;
+    background: url('assets/bg-hero-mobile.svg') #ECF9FF no-repeat;
 }
 
 nav{
@@ -23,7 +23,7 @@ nav{
     height: 4rem;
     /* margin-top: 1rem;
     margin-bottom: 5rem; */
-    margin: 1rem 0 4rem 0;
+    margin: 0 0 4rem 0;
 }
 
 nav img{
@@ -80,7 +80,37 @@ nav button{
 }
 
 .hero-section img{
-    width: 19rem;
+    max-width: 75%;
     margin-bottom: 3rem;
 
+}
+
+
+/* Cards section */
+.main{
+    margin-top: 2.5rem ;
+}
+
+
+.cards{
+    /* border: 1px solid red; */
+    padding: 3rem;
+    text-align: center;
+    box-shadow: -1px 1px 5px rgb(226, 225, 225) ;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+
+}
+.cards img{
+    /* border: 1px solid black; */
+    width: 100%;
+}
+.cards h2{
+    padding: 1rem 0;
+    
+}
+.cards p{
+    line-height: 1.5rem;
+    color: hsl(208, 11%, 55%);
+    
 }
